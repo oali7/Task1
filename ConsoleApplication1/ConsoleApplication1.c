@@ -10,7 +10,7 @@ int clear_bit(int number, int position)
     return number & ~(1 << position);
 }
 
-int toggle_bit(int number, int position) noexcept
+int toggle_bit(int number, int position)
 {
     return number ^ (1 << position);
 }
